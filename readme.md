@@ -9,8 +9,8 @@
 ~~~
 
 ## 补充：
-query_params部分由于是QueryDict对象，在Django中的QueryDict对象具有urlencode()方法。
-若在其它框架中，只要传入的是dict类型数据，可引入模块进行url的转化：
+- query_params部分由于是QueryDict对象，在Django中的QueryDict对象具有urlencode()方法。
+- 若在其它框架中，只要传入的是dict类型数据，可引入以下模块进行url的转化：
 ~~~
 from urllib.parse import urlencode
 ~~~
