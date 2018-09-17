@@ -1,4 +1,8 @@
 # 分页插件 Pagination
+
+[https://github.com/evicxixi/cmpt_Pagination](https://github.com/evicxixi/cmpt_Pagination)
+
+## 配置项
 ~~~
 : param current_page: 当前页码
 : param per_page: 每页显示数据条数
